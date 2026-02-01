@@ -1,0 +1,27 @@
+.red-box {
+    width: 600px;
+    height: 300px;
+    background-color: aliceblue;
+    justify-content: center;
+    display: flex;
+    border: 1px solid aliceblue;
+
+}
+.red-circle {
+    width: 200px;
+    height: 200px;
+    background-color: #BC002D;
+    border-radius: 50%;
+    margin: 40px 0;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.white-circle {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+
+}

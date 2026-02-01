@@ -1,0 +1,13 @@
+body {
+    margin: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+
+article{
+    text-align: center;
+    word-spacing: 10px;
+    white-space: auto;
+    text-indent: 100px;
+}

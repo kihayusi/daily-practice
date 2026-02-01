@@ -1,0 +1,42 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.avatar {
+    width: 150px;
+    height: 160px;
+}
+.card{
+    white-space: nowrap;
+    margin: 0 auto;
+    padding: 30px 60px;
+    background: rgb(88, 87, 87);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    text-align: center;
+    border-bottom: 6px solid black;  
+    gap: 20px;
+    box-shadow: 10px 10px #888888;
+    animation: slideandchange 2s ease-in-out 1s infinite alternate;
+  
+}
+.text{
+    transition: background-color 0.5s ease-in-out;
+}
+.text:hover{
+    color: black;
+  
+}
+@keyframes slideandchange {
+  0% {
+    background-color: rgb(21, 20, 20);
+    transform: translateX(0);
+  }
+  100% {
+    background-color: rgb(126, 126, 132);
+    transform: translateX(200px);
+  }
+}
