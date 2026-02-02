@@ -1,0 +1,20 @@
+@font-face {
+    font-family:"Rammetto One" sans-serif;
+    src: url("rammetto-one-v1-latin-regular.woff2");
+}
+body{
+    background: whitesmoke;
+    color: white;
+    font-family:"Rammetto One" sans-serif;
+}
+.ad{
+    background: #35654d;
+    border: 5px solid #a3bc71;
+    text-align: center;
+
+}
+.cta{
+    border: 2px solid #a3bc71;
+    padding: 5px 10px;
+    background: #8f4737;
+}
