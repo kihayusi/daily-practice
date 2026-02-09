@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    color: red;
+
+}
+#container {
+    border: 1px solid black;
+    background: whitesmoke;
+    font-size: 20px;
+    padding: 10px 20px;
+}
